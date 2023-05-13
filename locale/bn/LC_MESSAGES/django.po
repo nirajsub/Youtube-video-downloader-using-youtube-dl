@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 07:51+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\downloader\templates\index.html:17
+msgid "Shorts To MP4"
+msgstr ""
+
+#: .\settings.py:112 .\yvd\settings.py:112
+msgid "English"
+msgstr ""
+
+#: .\settings.py:113 .\settings.py:145 .\yvd\settings.py:113
+#: .\yvd\settings.py:145
+msgid "French"
+msgstr ""
+
+#: .\settings.py:114 .\yvd\settings.py:114
+msgid "Español"
+msgstr ""
+
+#: .\settings.py:115 .\yvd\settings.py:115
+msgid "Afrikaans"
+msgstr ""
+
+#: .\settings.py:116 .\yvd\settings.py:116
+msgid "Arabic"
+msgstr ""
+
+#: .\settings.py:117 .\yvd\settings.py:117
+msgid "Algerian Arabic"
+msgstr ""
+
+#: .\settings.py:118 .\yvd\settings.py:118
+msgid "Asturian"
+msgstr ""
+
+#: .\settings.py:119 .\yvd\settings.py:119
+msgid "Azerbaijani"
+msgstr ""
+
+#: .\settings.py:120 .\yvd\settings.py:120
+msgid "Bulgarian"
+msgstr ""
+
+#: .\settings.py:121 .\yvd\settings.py:121
+msgid "Belarusian"
+msgstr ""
+
+#: .\settings.py:122 .\yvd\settings.py:122
+msgid "Bengali"
+msgstr ""
+
+#: .\settings.py:123 .\yvd\settings.py:123
+msgid "Breton"
+msgstr ""
+
+#: .\settings.py:124 .\yvd\settings.py:124
+msgid "Bosnian"
+msgstr ""
+
+#: .\settings.py:125 .\yvd\settings.py:125
+msgid "Catalan"
+msgstr ""
+
+#: .\settings.py:126 .\yvd\settings.py:126
+msgid "Czech"
+msgstr ""
+
+#: .\settings.py:127 .\yvd\settings.py:127
+msgid "Welsh"
+msgstr ""
+
+#: .\settings.py:128 .\yvd\settings.py:128
+msgid "Danish"
+msgstr ""
+
+#: .\settings.py:129 .\yvd\settings.py:129
+msgid "German"
+msgstr ""
+
+#: .\settings.py:130 .\yvd\settings.py:130
+msgid "Lower Sorbian"
+msgstr ""
+
+#: .\settings.py:131 .\yvd\settings.py:131
+msgid "Greek"
+msgstr ""
+
+#: .\settings.py:132 .\yvd\settings.py:132
+msgid "Australian English"
+msgstr ""
+
+#: .\settings.py:133 .\yvd\settings.py:133
+msgid "British English"
+msgstr ""
+
+#: .\settings.py:134 .\yvd\settings.py:134
+msgid "Esperanto"
+msgstr ""
+
+#: .\settings.py:135 .\yvd\settings.py:135
+msgid "Spanish"
+msgstr ""
+
+#: .\settings.py:136 .\yvd\settings.py:136
+msgid "Argentinian Spanish"
+msgstr ""
+
+#: .\settings.py:137 .\yvd\settings.py:137
+msgid "Colombian Spanish"
+msgstr ""
+
+#: .\settings.py:138 .\yvd\settings.py:138
+msgid "Mexican Spanish"
+msgstr ""
+
+#: .\settings.py:139 .\yvd\settings.py:139
+msgid "Nicaraguan Spanish"
+msgstr ""
+
+#: .\settings.py:140 .\yvd\settings.py:140
+msgid "Venezuelan Spanish"
+msgstr ""
+
+#: .\settings.py:141 .\yvd\settings.py:141
+msgid "Estonian"
+msgstr ""
+
+#: .\settings.py:142 .\yvd\settings.py:142
+msgid "Basque"
+msgstr ""
+
+#: .\settings.py:143 .\yvd\settings.py:143
+msgid "Persian"
+msgstr ""
+
+#: .\settings.py:144 .\yvd\settings.py:144
+msgid "Finnish"
+msgstr ""
+
+#: .\settings.py:146 .\yvd\settings.py:146
+msgid "Frisian"
+msgstr ""
+
+#: .\settings.py:147 .\yvd\settings.py:147
+msgid "Irish"
+msgstr ""
+
+#: .\settings.py:148 .\yvd\settings.py:148
+msgid "Scottish Gaelic"
+msgstr ""
+
+#: .\settings.py:149 .\yvd\settings.py:149
+msgid "Galician"
+msgstr ""
+
+#: .\settings.py:150 .\yvd\settings.py:150
+msgid "Hebrew"
+msgstr ""
+
+#: .\settings.py:151 .\yvd\settings.py:151
+msgid "Hindi"
+msgstr ""
+
+#: .\settings.py:152 .\yvd\settings.py:152
+msgid "Croatian"
+msgstr ""
+
+#: .\settings.py:153 .\yvd\settings.py:153
+msgid "Upper Sorbian"
+msgstr ""
+
+#: .\settings.py:154 .\yvd\settings.py:154
+msgid "Hungarian"
+msgstr ""
+
+#: .\settings.py:155 .\yvd\settings.py:155
+msgid "Armenian"
+msgstr ""
+
+#: .\settings.py:156 .\yvd\settings.py:156
+msgid "Interlingua"
+msgstr ""
+
+#: .\settings.py:157 .\yvd\settings.py:157
+msgid "Indonesian"
+msgstr ""
+
+#: .\settings.py:158 .\yvd\settings.py:158
+msgid "Igbo"
+msgstr ""
+
+#: .\settings.py:159 .\yvd\settings.py:159
+msgid "Ido"
+msgstr ""
+
+#: .\settings.py:160 .\yvd\settings.py:160
+msgid "Icelandic"
+msgstr ""
+
+#: .\settings.py:161 .\yvd\settings.py:161
+msgid "Italian"
+msgstr ""
+
+#: .\settings.py:162 .\yvd\settings.py:162
+msgid "Japanese"
+msgstr ""
+
+#: .\settings.py:163 .\yvd\settings.py:163
+msgid "Georgian"
+msgstr ""
+
+#: .\settings.py:164 .\yvd\settings.py:164
+msgid "Kabyle"
+msgstr ""
+
+#: .\settings.py:165 .\yvd\settings.py:165
+msgid "Kazakh"
+msgstr ""
+
+#: .\settings.py:166 .\yvd\settings.py:166
+msgid "Khmer"
+msgstr ""
+
+#: .\settings.py:167 .\yvd\settings.py:167
+msgid "Kannada"
+msgstr ""
+
+#: .\settings.py:168 .\yvd\settings.py:168
+msgid "Korean"
+msgstr ""
+
+#: .\settings.py:169 .\yvd\settings.py:169
+msgid "Kyrgyz"
+msgstr ""
+
+#: .\settings.py:170 .\yvd\settings.py:170
+msgid "Luxembourgish"
+msgstr ""
+
+#: .\settings.py:171 .\yvd\settings.py:171
+msgid "Lithuanian"
+msgstr ""
+
+#: .\settings.py:172 .\yvd\settings.py:172
+msgid "Latvian"
+msgstr ""
+
+#: .\settings.py:173 .\yvd\settings.py:173
+msgid "Macedonian"
+msgstr ""
+
+#: .\settings.py:174 .\yvd\settings.py:174
+msgid "Malayalam"
+msgstr ""
+
+#: .\settings.py:175 .\yvd\settings.py:175
+msgid "Mongolian"
+msgstr ""
+
+#: .\settings.py:176 .\yvd\settings.py:176
+msgid "Marathi"
+msgstr ""
+
+#: .\settings.py:177 .\yvd\settings.py:177
+msgid "Burmese"
+msgstr ""
+
+#: .\settings.py:178 .\yvd\settings.py:178
+msgid "Norwegian Bokmål"
+msgstr ""
+
+#: .\settings.py:179 .\yvd\settings.py:179
+msgid "Nepali"
+msgstr ""
+
+#: .\settings.py:180 .\yvd\settings.py:180
+msgid "Dutch"
+msgstr ""
+
+#: .\settings.py:181 .\yvd\settings.py:181
+msgid "Norwegian Nynorsk"
+msgstr ""
+
+#: .\settings.py:182 .\yvd\settings.py:182
+msgid "Ossetic"
+msgstr ""
+
+#: .\settings.py:183 .\yvd\settings.py:183
+msgid "Punjabi"
+msgstr ""
+
+#: .\settings.py:184 .\yvd\settings.py:184
+msgid "Polish"
+msgstr ""
+
+#: .\settings.py:185 .\yvd\settings.py:185
+msgid "Portuguese"
+msgstr ""
+
+#: .\settings.py:186 .\yvd\settings.py:186
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: .\settings.py:187 .\yvd\settings.py:187
+msgid "Romanian"
+msgstr ""
+
+#: .\settings.py:188 .\yvd\settings.py:188
+msgid "Russian"
+msgstr ""
+
+#: .\settings.py:189 .\yvd\settings.py:189
+msgid "Slovak"
+msgstr ""
+
+#: .\settings.py:190 .\yvd\settings.py:190
+msgid "Slovenian"
+msgstr ""
+
+#: .\settings.py:191 .\yvd\settings.py:191
+msgid "Albanian"
+msgstr ""
+
+#: .\settings.py:192 .\yvd\settings.py:192
+msgid "Serbian"
+msgstr ""
+
+#: .\settings.py:193 .\yvd\settings.py:193
+msgid "Serbian Latin"
+msgstr ""
+
+#: .\settings.py:194 .\yvd\settings.py:194
+msgid "Swedish"
+msgstr ""
+
+#: .\settings.py:195 .\yvd\settings.py:195
+msgid "Swahili"
+msgstr ""
+
+#: .\settings.py:196 .\yvd\settings.py:196
+msgid "Tamil"
+msgstr ""
+
+#: .\settings.py:197 .\yvd\settings.py:197
+msgid "Telugu"
+msgstr ""
+
+#: .\settings.py:198 .\yvd\settings.py:198
+msgid "Tajik"
+msgstr ""
+
+#: .\settings.py:199 .\yvd\settings.py:199
+msgid "Thai"
+msgstr ""
+
+#: .\settings.py:200 .\yvd\settings.py:200
+msgid "Turkmen"
+msgstr ""
+
+#: .\settings.py:201 .\yvd\settings.py:201
+msgid "Turkish"
+msgstr ""
+
+#: .\settings.py:202 .\yvd\settings.py:202
+msgid "Tatar"
+msgstr ""
+
+#: .\settings.py:203 .\yvd\settings.py:203
+msgid "Udmurt"
+msgstr ""
+
+#: .\settings.py:204 .\yvd\settings.py:204
+msgid "Ukrainian"
+msgstr ""
+
+#: .\settings.py:205 .\yvd\settings.py:205
+msgid "Urdu"
+msgstr ""
+
+#: .\settings.py:206 .\yvd\settings.py:206
+msgid "Uzbek"
+msgstr ""
+
+#: .\settings.py:207 .\yvd\settings.py:207
+msgid "Vietnamese"
+msgstr ""
+
+#: .\settings.py:208 .\yvd\settings.py:208
+msgid "Simplified Chinese"
+msgstr ""
+
+#: .\settings.py:209 .\yvd\settings.py:209
+msgid "Traditional Chinese"
+msgstr ""
