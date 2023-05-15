@@ -6,11 +6,9 @@ import pytube
 import os
 from django.http.response import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
-
 import requests
 from django.http import HttpResponse
 import youtube_dl
-# import yt_dlp
 from .forms import DownloadForm
 import re
 
