@@ -213,24 +213,19 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">Quality</th>
-                                        {% comment %} <th scope="col">Format</th> {% endcomment %}
                                         <th scope="col">Sizes</th>
                                         <th scope="col">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {% for stream in streams %}
-                                    {% comment %} {% if stream.type == "video" %} {% endcomment %}
                                     <tr>
                                         <th>{{stream.resolution}}</th>
-                                        {% comment %} <td>{{stream.mime_type}}</td> {% endcomment %}
                                         <td>{{stream.file_size}}</td>
                                         <td><a href="{{ stream.video_url }}" style="text-decoration: none;"
                                             download="{{ title }}.{{ extension }}" target="_blank"><button class="btn">Download</button> <i
                                              class=" fa fa-download"></i></a></td>
-                                        {% comment %} <td><a href="{{ stream.url }}" download="(shortsdownloader.com){{ title }}"> <button class="btn" id="download">Download</button></a></td>  {% endcomment %}
                                     </tr>
-                                    {% comment %} {% endif %} {% endcomment %}
                                     {% endfor %}
                                 </tbody>
                             </table>
@@ -242,76 +237,6 @@
                             Video
                         </span>
                     </label>
-
-                    {% comment %} <input name="nav" type="radio" class="about-radio" id="about" />
-                    <div class="page about-page">
-                        <div class="page-contents">
-                            <table class="table table-hover align-middle table-borderedless">
-                                <thead>    
-                                    <tr>
-                                        <th scope="col">Quality</th>
-                                        <th scope="col">Format</th>
-                                        <th scope="col">Sizes</th>
-                                        <th scope="col">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {% for stream in audio %}
-                                    <tr>
-                                        <th>{{stream.abr}}</th>
-                                        <td>{{stream.mime_type}}</td>
-                                        <td>{{stream.filesize}}</td>
-                                        <td><a href="{{ stream.url }}" download="(shortsdownloader.com){{ title }}"> <button class="btn" id="download">Download</button></a></td> 
-                                    </tr>
-                                    {% endfor %}
-                                </tbody>
-                            </table>
-                        </div>
-                    </div> {% endcomment %}
-                    {% comment %} <label class="nav" for="about">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="currentColor" d="M31.68 6.16c-1.92-3.3-10.6-4-11.58-4.09L19 2v20.29a5.88 5.88 0 0 0-.81-.55a8.33 8.33 0 0 0-6.53-.41c-4.12 1.33-6.77 5.13-5.91 8.47a5.33 5.33 0 0 0 2.66 3.32a7.48 7.48 0 0 0 3.61.88a9.54 9.54 0 0 0 2.98-.48c3.7-1.19 6.2-4.37 6.06-7.42V8.49c1 .12 2.37.33 3.82.64a11.17 11.17 0 0 1 4.06 1.46c1 .66.38 1.9.33 2a11.8 11.8 0 0 1-1.66 2a1 1 0 0 0 1.33 1.49c.21-.23 5.56-5.08 2.74-9.92Z" class="clr-i-solid clr-i-solid-path-1"/><path fill="none" d="M0 0h36v36H0z"/></svg> 
-                            Audio
-                        </span>
-                    </label> {% endcomment %}
-
-                    {% comment %} <input name="nav" type="radio" class="contact-radio" id="contact" />
-                    <div class="page contact-page">
-                        <div class="page-contents">
-                            <table class="table table-hover align-middle table-borderedless">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Quality</th>
-                                        <th scope="col">Format</th>
-                                        <th scope="col">Sizes</th>
-                                        <th scope="col">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                    {% for stream in streams %}
-                                    {% if stream.type == 'video' %}
-                                    {% if stream.mime_type == "video/mp4" %}
-                                    <tr>
-                                        <th>{{stream.resolution}}</th>
-                                        <td>{{stream.mime_type}}</td>
-                                        <td>{{stream.file_size}}</td>
-                                        <td><a href="{{ stream.url }}" download="(shortsdownloader.com){{ title }}"> <button class="btn" id="download">Download</button></a></td> 
-                                    </tr>
-                                    {% endif %}
-                                    {% endif %}
-                                    {% endfor %}
-                                   
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <label class="nav" for="contact">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M4 19h10.879L2.145 6.265A1.977 1.977 0 0 0 2 7v10c0 1.103.897 2 2 2zM18 7c0-1.103-.897-2-2-2H6.414L3.707 2.293L2.293 3.707l18 18l1.414-1.414L18 16.586v-2.919L22 17V7l-4 3.333V7z"/></svg>
-                            Shorts Without Sound
-                        </span>
-                    </label> {% endcomment %}
                 </div>
             </div>
             {% endif %}
